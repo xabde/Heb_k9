@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heb_k9</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar"><a href="index.html">
+        <div class="logo">
+            
+            <img src="photos/logo.png" alt="Logo">
+        </div></a>
+       
+    </nav>
+    <p class="slogan">A TRUE FRIEND LEAVES PAW PRINTS ON YOUR HEART</p>
+    <section class="menu">
+        <div class="menu-item">
+            <a href="choix.html">
+                <div class="circle">
+                    <img src="photos/nosraces.jpg" alt="Nos Races">
+                </div>
+                <p><strong>Nos Races </strong></p>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="nos-services.html">
+                <div class="circle">
+                    <img src="photos/nosservices.jpg" alt="Nos Services">
+                </div>
+                <p><strong>Nos Services</strong></p>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="nos-produits.html">
+                <div class="circle">
+                    <img src="photos/nosproduits.jpg" alt="Nos Produits">
+                </div>
+                <p><strong>Nos Produits</strong></p>
+            </a>
+        </div>
+    </section>
+    <div class="line-with-word">
+        <div class="line"></div>
+        <span class="word">Chiens disponibles</span>
+        <div class="line"></div>
+    </div>
+    <div class="dog-marketplace">
+       
+        <div class="dog-card" onclick="goToDogPage('dog1.html')">
+            <img src="photos/dog1.jpg" alt="Dog 1">
+            <h3>Berger Allemand</h3>
+        </div>
+        
+        <div class="dog-card" onclick="goToDogPage('dog2.html')">
+            <img src="photos/dog2.jpg" alt="Dog 2">
+            <h3>Berger Belge Malinois</h3>
+        </div>
+       
+        <div class="dog-card" onclick="goToDogPage('dog3.html')">
+            <img src="photos/dog3.jpg" alt="Dog 3">
+            <h3>Rottweiler</h3>
+        </div>
+        
+        <div class="dog-card" onclick="goToDogPage('dog4.html')">
+            <img src="photos/dog4.jpg" alt="Dog 4">
+            <h3>Cane Corso</h3>
+        </div>
+       
+        <div class="dog-card" onclick="goToDogPage('dog5.html')">
+            <img src="photos/dog5.jpg" alt="Dog 5">
+            <h3>Dogo Argentino</h3>
+        </div>
+       
+        <div class="dog-card" onclick="goToDogPage('dog6.html')">
+            <img src="photos/dog6.jpg" alt="Dog 6">
+            <h3>Labrador</h3>
+        </div>
+        <div class="dog-card" onclick="goToDogPage('dog7.html')">
+            <img src="photos/dog7.jpg" alt="Dog 6">
+            <h3>Dalmatien</h3>
+        </div>
+        <div class="dog-card" onclick="goToDogPage('dog8.html')">
+            <img src="photos/dog8.jpg" alt="Dog 6">
+            <h3>Bichon Maltais</h3>
+        </div>
+        <div class="dog-card" onclick="goToDogPage('dog9.html')">
+            <img src="photos/dog9.jpg" alt="Dog 6">
+            <h3>Carlin</h3>
+        </div>
+        <div class="dog-card" onclick="goToDogPage('dog10.html')">
+            <img src="photos/dog10.jpg" alt="Dog 6">
+            <h3>Bouledogue Francais</h3>
+        </div>
+    </div>
+    <h3 class="nb">NB : si vous n'avez pas trouver ce que vous cherchez , veuillez appelez +212 645-064539 pour vérifier sa disponibilité</h3>
+    <script>function goToDogPage(url) {
+        window.location.href = url;
+    }
+    </script>
+     <footer class="footer">
+        <div class="social-links">
+            <a style="color: #be5a6d;" href="https://www.instagram.com/heb_k9.officiel/" target="_blank" class="icon"><i class="fab fa-instagram"></i> Instagram</a>
+            <a style="color: #5474ca;" href="https://www.facebook.com/houssam.belyamani/?locale=fr_FR" target="_blank" class="icon"><i class="fab fa-facebook"></i> Facebook</a>
+            <a style="color: #7ec07c;" href="tel:+212 645-064539" class="icon"><i class="fas fa-phone"></i> Phone</a>
+            <a style="color: #c5b56e;" href="https://maps.app.goo.gl/P8SPVmmyJUhuvQhZ7" target="_blank" class="icon"><i class="fas fa-map-marker-alt"></i> Maps</a>
+        </div>
+        <form class="email-form" action="#" method="POST">
+            <input type="email" name="email" placeholder="Entrez votre email" required>
+            <button type="submit">Envoyer</button>
+        </form><br>
+
+        <p style="text-decoration: underline;" class="rights">ALL RIGHTS RESERVED. ©2024 Heb_k9</p>
+    </footer>
+    
+</body>
+</html>
